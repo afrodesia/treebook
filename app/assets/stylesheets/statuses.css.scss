@@ -6,6 +6,7 @@
 	margin:0;
 	border-bottom:1px solid #ccc;
 	padding:5px 0;
+	display:block;
 }
 .status p{
 	padding:4px 0;
@@ -22,10 +23,19 @@
 .status.hover .admin{
 	display:inline;
 }
-.btn-status{
+.new-post-wrapper{
+	display:block;
 	margin:20px 0;
-	background:red;
+}
+.btn-status{
+	text-decoration:none;
+	background:#C52F24;;
 	color:#fff;
-	padding:3px 6px;
+	padding:5px 10px;
 	display:-inline-block;
+	float:right;
+	border-radius: 4px;
+}
+.btn-status:hover{
+	background:#000;
 }

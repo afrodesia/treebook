@@ -115,9 +115,6 @@ input, select {
     vertical-align:middle;
 }
 
-
-
-
 /* Clearfix */
 .clearfix:before,
 .clearfix:after {
@@ -148,10 +145,20 @@ html{
 }
 body{
 	overflow-x: hidden;
-	font-family:Arial;
+/*	font-family:Arial;*/
 	color:#000;
+    font-family: 'Roboto Condensed', sans-serif;
 
 
+}
+.header-wrapper{
+    background: #000;
+
+}
+.nav-wrap{
+    max-width: 940px;
+    margin:0 auto; 
+    width: 100%;
 }
 .page-wrap{
 	max-width: 940px;
@@ -161,9 +168,11 @@ body{
 }
 /* HEADING STYLES */
 h1{
-	font-size: 2.8em;
+	font-size: 2.5em;
 	line-height: 1.4em;
-	color:red;
+	color:#C52F24;
+    font-weight:700;
+    text-transform: uppercase;
 }
 h2{
 	font-size: 2em;
@@ -184,8 +193,32 @@ p{
 	font-size: 1em;
 	line-height: 1.4em;
 }
+a{color:#C52F24; text-decoration: none;}
+a:hover{color:#C52F24;}
 
 
+/* FORM STYLING */
+.form-label,
+.form-field,
+.form-text{
+    width: inherit;
+    display: block;
+    padding: 8px;
+}
+.form-label{
+    padding:15px 0;
+}
+.actions{
+   margin-top: 20px 0;
+   display: block; 
+}
+.submit-btn{
+    background:#000;
+    border:0;
+    padding: 5px 10px;
+    color: #fff;
+     
+}
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen 

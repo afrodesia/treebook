@@ -1,10 +1,10 @@
 <h2>All Statuses</h2>
 
 <%= link_to "Post a New Status", new_status_path, class: "btn-status" %>
-
-<% @statuses.each do |status| %>
- 
- <section class="status">
+<section class="new-post-wrapper clearfix">
+   <% @statuses.each do |status| %>
+</section>
+ <section class="status clearfix">
   <strong><%= status.name %></strong>
   <p> <%= status.content %> </p>
    <div class="meta">
