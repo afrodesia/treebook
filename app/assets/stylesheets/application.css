@@ -153,6 +153,7 @@ body{
 }
 .header-wrapper{
     background: #000;
+    margin-bottom: 40px;
 
 }
 .nav-wrap{
@@ -168,21 +169,22 @@ body{
 }
 /* HEADING STYLES */
 h1{
-	font-size: 2.5em;
+	font-size: 2em;
 	line-height: 1.4em;
 	color:#C52F24;
     font-weight:700;
     text-transform: uppercase;
+    
 }
 h2{
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 1.4em;
+    border-bottom: 1px solid #000;margin-bottom: 20px;
+
 }
 h3{
 	font-size: 1.8em;
 	line-height: 1.4em;
-	border-top: 1px solid #000;
-	border-bottom: 5px solid #000;
 }
 h4{
 	font-size: 1.4em;
@@ -209,7 +211,7 @@ a:hover{color:#C52F24;}
     padding:15px 0;
 }
 .actions{
-   margin-top: 20px 0;
+   margin: 20px 0;
    display: block; 
 }
 .submit-btn{
