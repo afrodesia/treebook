@@ -154,6 +154,8 @@ body{
 .header-wrapper{
     background: #000;
     margin-bottom: 40px;
+    display: block;
+    height: 50px;
 
 }
 .nav-wrap{
@@ -218,9 +220,40 @@ a:hover{color:#C52F24;}
     background:#000;
     border:0;
     padding: 5px 10px;
-    color: #fff;
-     
+    color: #fff;    
 }
+.identity{display: inline-block;float: left; margin-right: 40px;}
+
+.nav-list{
+    color:#fff;
+    float: left;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: .7em;
+}
+.nav-list li{
+    display: inline;
+    float: left;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left:10px;
+}
+.nav-list li:hover{
+    background: #000;
+    color:#fff;
+}
+.nav-login{
+    color:#fff;
+    float: right;
+    margin-top: 15px;   
+}
+.nav-login li{
+    display: inline;
+    float: left;
+    margin-left:10px;
+}
+
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen 

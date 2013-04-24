@@ -44,3 +44,5 @@ group :development do
 end
 
 gem 'thin'
+gem 'simple_form'
+
