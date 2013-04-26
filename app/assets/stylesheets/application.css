@@ -199,29 +199,9 @@ p{
 }
 a{color:#C52F24; text-decoration: none;}
 a:hover{color:#C52F24;}
+i{font-size: .6em; display: inline-block;}
 
 
-/* FORM STYLING */
-.form-label,
-.form-field,
-.form-text{
-    width: inherit;
-    display: block;
-    padding: 8px;
-}
-.form-label{
-    padding:15px 0;
-}
-.actions{
-   margin: 20px 0;
-   display: block; 
-}
-.submit-btn{
-    background:#000;
-    border:0;
-    padding: 5px 10px;
-    color: #fff;    
-}
 .identity{display: inline-block;float: left; margin-right: 40px;}
 
 .nav-list{

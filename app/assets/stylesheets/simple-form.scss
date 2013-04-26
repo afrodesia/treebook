@@ -1,0 +1,21 @@
+/* FORM STYLING */
+.form-label,
+.form-field,
+.form-text{
+    width: inherit;
+    display: block;
+    padding: 8px;
+}
+.form-label{
+    padding:15px 0 5px 0;
+}
+.actions{
+   margin: 20px 0;
+   display: block; 
+}
+.submit-btn{
+    background:#000;
+    border:0;
+    padding: 5px 10px;
+    color: #fff;    
+}
