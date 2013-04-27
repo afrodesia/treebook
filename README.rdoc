@@ -1,4 +1,4 @@
-== Treebook
+== Treebook aka STATUSTREE(on Heroku)
 
-Simple Rails socialmedia system. 
+Simple RubyonRails socialmedia app system. 
 
