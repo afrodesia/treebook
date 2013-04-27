@@ -1,2 +1,17 @@
-<h1>Profiles#show</h1>
-<p>Find me in app/views/profiles/show.html.erb</p>
+
+<section class="profile-header">
+  <h2><%= @user.full_name %></h2>
+</section>
+  <% if @statuses %>
+   <% @statuses.each do|status| %>
+   
+   <section class="status clearfix">
+      <p><%= status.content %></p>
+        <div class="meta">
+          <%= link_to time_ago_in_words(status.created_at) + " ago", status %>
+        </div>
+    </section>
+   <% end %>
+  <% end %>
+
+
