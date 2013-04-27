@@ -5,6 +5,12 @@
 <% @statuses.each do |status| %>
  </section>
  <section class="status clearfix">
+  <span class="avatar">
+
+   <%= image_tag status.user.gravatar_url %>
+   
+   </span> 
+
   <strong>
     <%= status.user.full_name %>
 

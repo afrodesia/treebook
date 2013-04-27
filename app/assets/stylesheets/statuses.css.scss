@@ -2,6 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.avatar{
+	width:70px;
+	height:70px;
+	// background:#333;
+	padding:5px;
+	float: left;
+	margin:5px 10px;
+	border:1px solid #ccc;
+}
+.status strong{
+	margin-top:10px;
+}
 .status{
 	margin:0;
 	border-bottom:1px solid #ccc;
@@ -10,6 +22,7 @@
 }
 .status p{
 	padding:4px 0;
+
 }
 .meta{
 	font-size:.8em;
