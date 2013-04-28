@@ -169,6 +169,12 @@ body{
 	padding: 0px 10px;
 	width: 100%;
 }
+footer{
+    margin: 50px 0px;
+    display: block;
+    clear: both;
+}
+
 /* HEADING STYLES */
 h1{
 	font-size: 2em;
@@ -208,8 +214,8 @@ i{font-size: .6em; display: inline-block;}
     color:#fff;
     float: left;
     display: inline-block;
-    margin-top: 15px;
-    font-size: .7em;
+    margin-top: 12px;
+    font-size: 1em;
 }
 .nav-list li{
     display: inline;

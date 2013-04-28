@@ -19,7 +19,9 @@
     background:#000;
     border:0;
     padding: 5px 10px;
-    color: #fff;    
+    color: #fff;
+    border-radius:6px;
+    font-size: 1em;    
 }
 .admin{
     float:right;
@@ -33,4 +35,25 @@
 }
 .rememberme{
     margin-top: 20px;
+}
+.form-wrapper{
+    float: left;
+    display: inline-block;
+}
+.global-links {
+    float:right;
+    display:inline-block;
+    border-left:1px solid #ccc;
+    padding-left:70px;
+}
+.global-links a{
+    background:#D6CBCB;
+    padding:20px;
+    width: 300px;
+    display: block;
+    margin:20px;
+    text-align: center;
+    font-size:1.2em;
+    border-radius:6px;
+    color: #000;
 }
