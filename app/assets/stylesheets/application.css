@@ -180,7 +180,7 @@ h1{
 	font-size: 2em;
 	line-height: 1.4em;
 	color:#C52F24;
-    font-weight:700;
+    /*font-weight:700;*/
     text-transform: uppercase;
     
 }
@@ -208,7 +208,7 @@ a:hover{color:#C52F24;}
 i{font-size: .6em; display: inline-block;}
 .whitecolor{color:fff;}
 
-.identity{display: inline-block;float: left; margin-right: 40px;}
+.identity{display: inline-block;float: left; margin-right: 40px; font-weight: normal;}
 
 .nav-list{
     color:#fff;
@@ -247,7 +247,7 @@ i{font-size: .6em; display: inline-block;}
     background:#E7BCBD;
     border: 1px solid red;
     padding: 5px;
-    font-size: .7em;
+    font-size: .9em;
 }
 
 .notice-mess{
@@ -255,9 +255,18 @@ i{font-size: .6em; display: inline-block;}
     background:#FFFCE0;
     border: 1px solid #C1B830;
     padding: 5px;
-    font-size: .7em;
+    font-size: .9em;
 }
-
+.masthead{
+    background:#FCF9CF;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 2.3em;
+    color: #333;
+    line-height: 1em;
+    font-weight:italic;
+}
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
    and (min-width : 768px) 
