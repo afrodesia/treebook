@@ -39,12 +39,13 @@ class StatusesController < ApplicationController
   # GET /statuses/1/edit
   def edit
     @status = Status.find(params[:id])
+    # @status = current_user.statuses.find(params[:id])
   end
 
   # POST /statuses
   # POST /statuses.json
   def create
-    @status = Status.new(params[:status])
+    @status = current_user.statuses.new(params[:status])
 
     respond_to do |format|
       if @status.save
