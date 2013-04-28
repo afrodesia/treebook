@@ -13,7 +13,9 @@
    margin: 20px 0;
    display: block; 
 }
-.submit-btn{
+.submit-btn,
+.actions input
+{
     background:#000;
     border:0;
     padding: 5px 10px;
@@ -28,4 +30,7 @@
 }
 .delete-admin{
     padding:5px;
+}
+.rememberme{
+    margin-top: 20px;
 }
