@@ -1,7 +1,6 @@
-<h1 class="masthead">What to share your thought and meet new friends?<br/> share your status now on statustree !</h1>
+<!-- <h1 class="masthead">What to share your thought and meet new friends?<br/> share your status now on statustree !  <p class="new-register"><%= link_to "Register now!", register_path %></p></h1> -->
 
 <h2></h2>
-
 <%= link_to "Post A New Status", new_status_path, class: "btn-status" %>
 <section class="new-post-wrapper clearfix">
 <% @statuses.each do |status| %>
@@ -26,6 +25,6 @@
         <span class="delete-admin"><%= link_to "Delete", status, method: :delete, data: { confirm: "Are you sure your want to delete this status?"} %></span>
      </span>
    </div>
- </section>
+ 
 <% end %>
- </section>
+</section>
