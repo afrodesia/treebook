@@ -3,8 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .avatar{
-	width:70px;
-	height:70px;
+	// width:70px;
+	// height:70px;
 	// background:#333;
 	padding:5px;
 	float: left;
@@ -13,6 +13,10 @@
 }
 .status strong{
 	margin-top:10px;
+}
+.status h4 a{
+	font-size:1em;
+	color:#333;
 }
 .status{
 	margin:0;
@@ -51,4 +55,7 @@
 }
 .btn-status:hover{
 	background:#000;
+}
+.content-edit{
+	margin-top:23px;
 }

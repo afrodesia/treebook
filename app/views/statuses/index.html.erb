@@ -11,11 +11,12 @@
    
    </span> 
 
-  <strong>
-    <%= status.user.full_name %>
+  <h4>
+    <%= link_to status.user.full_name, status %>
 
-  </strong>
-  <p> <%= status.content %> </p>
+  </h4>
+    <p> <%= truncate status.content, length:180 %> </p>
+
    <div class="meta">
      <%= link_to time_ago_in_words(status.created_at) + " ago", status %>
      <span class="admin">

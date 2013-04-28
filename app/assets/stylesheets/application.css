@@ -233,6 +233,9 @@ i{font-size: .6em; display: inline-block;}
     float: left;
     margin-left:10px;
 }
+.nav-login li a:hover{
+    color:#fff;
+}
 .alert-mess{
     color:red;
     background:#E7BCBD;
