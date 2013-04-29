@@ -17,14 +17,13 @@
   <header class="header-wrapper">
     <section class="nav-wrap"> 
       <h1 class="identity"><%= link_to "Statustree", statuses_path %></h1>
-      
+  
       <ul class="nav-list">
          <li><%= link_to "All Statuses", feed_path %></li>
       </ul>
 
       <ul class="nav-login">
         <% if user_signed_in? %>
-
          <li><%= link_to current_user.full_name, edit_user_registration_path %></li>
          <li><%= link_to "Log Out", logout_path %></li>
            

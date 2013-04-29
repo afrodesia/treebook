@@ -152,10 +152,13 @@ body{
 
 }
 .header-wrapper{
-    background: #000;
+    background: #C92E24;
     margin-bottom: 40px;
     display: block;
     height: 50px;
+    box-shadow: 0 4px 4px -2px #000000;
+/*    position: fixed;
+    width: 100%;*/
 
 }
 .nav-wrap{
@@ -208,8 +211,14 @@ a:hover{color:#C52F24;}
 i{font-size: .6em; display: inline-block;}
 .whitecolor{color:fff;}
 
-.identity{display: inline-block;float: left; margin-right: 40px; font-weight: normal;}
-
+.identity a{
+    display: inline-block;
+    float: left; 
+    margin-right: 40px; 
+    font-weight: Ultra-Light 100 ;
+    color:#fff;
+}
+.tree{color:#000;font-weight: normal;}
 .nav-list{
     color:#fff;
     float: left;
@@ -230,7 +239,7 @@ i{font-size: .6em; display: inline-block;}
     color:#fff;
 }
 .nav-login{
-    color:#fff;
+    color:#000;
     float: right;
     margin-top: 15px;   
 }
@@ -239,8 +248,11 @@ i{font-size: .6em; display: inline-block;}
     float: left;
     margin-left:10px;
 }
-.nav-login li a:hover{
+.nav-login li a{
     color:#fff;
+}    
+.nav-login li a:hover{
+    color:#000;
 }
 .alert-mess{
     color:red;
@@ -248,14 +260,15 @@ i{font-size: .6em; display: inline-block;}
     border: 1px solid red;
     padding: 5px;
     font-size: .9em;
+    margin-bottom: 20px;
 }
-
 .notice-mess{
     color:#C1B830;
     background:#FFFCE0;
     border: 1px solid #C1B830;
     padding: 5px;
     font-size: .9em;
+    margin-bottom: 20px;
 }
 .masthead{
     background:#FCF9CF;
@@ -267,7 +280,6 @@ i{font-size: .6em; display: inline-block;}
     line-height: 1em;
     font-weight:italic;
 }
-
 h1.masthead .new-register a{
     background: #333;
     color:#fff;
@@ -276,6 +288,7 @@ h1.masthead .new-register a{
     width:400px;
     margin:20px;
 }
+
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
    and (min-width : 768px) 
