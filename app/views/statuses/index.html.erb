@@ -8,7 +8,7 @@
  <section class="status clearfix">
   <span class="avatar">
 
-   <%= image_tag status.user.gravatar_url %>
+   <%= link_to image_tag(status.user.gravatar_url),profile_path(status.user) %>
    
    </span> 
 
