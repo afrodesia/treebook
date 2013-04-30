@@ -9,3 +9,9 @@ ariel:
   last_name: "Torry"
   email: "ariel@afrodesiamedia.com"
   profile_name: "zorion"
+
+mika:
+  first_name: "Mika"
+  last_name: "Ochiai"
+  email: "mika@afrodesiamedia.com"
+  profile_name: "me"  
